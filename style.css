@@ -1,0 +1,9 @@
+/* Hide member-only menu for non-members */
+.pmpro-non-member .member-only-menu {
+    display: none;
+}
+
+/* Show it for members */
+.pmpro-member .member-only-menu {
+    display: block;
+}
